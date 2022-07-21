@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/iu1"
+        android:title="Destalles de App" />
+    <item
+        android:id="@+id/iu2"
+        android:title="Ayuda" />
+    <item
+        android:id="@+id/iu3"
+        android:title="Cerrar seccion" />
+    <item
+        android:id="@+id/iu4"
+        android:icon="@drawable/history"
+        android:title="historial"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistaCrearUse">
+
+    <EditText
+        android:id="@+id/idcampo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id"
+        android:textAlignment="center"
+        android:enabled="false"></EditText>
+
+    <EditText
+        android:id="@+id/idnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idcampo"
+        android:layout_marginTop="10dp"
+        android:hint="Nombre"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/idapellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idnombre"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/idedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idapellido"
+        android:layout_marginTop="10dp"
+        android:hint="Edad"
+        android:inputType="number"
+        android:textAlignment="center"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SEXO (M o F)"
+        android:textAlignment="center"
+        android:layout_below="@+id/idedad"
+        android:id="@+id/idsexo"
+        android:layout_marginTop="10dp">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura"
+        android:textAlignment="center"
+        android:layout_below="@+id/idsexo"
+        android:id="@+id/idaltura"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso (KL)"
+        android:textAlignment="center"
+        android:layout_below="@+id/idaltura"
+        android:id="@+id/idpeso"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsave"
+        android:layout_below="@+id/idpeso"
+        android:text="Guardar usuario"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnback"
+        android:layout_below="@+id/btnsave"
+        android:text="Regresar"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="40dp"></Button>
+
+
+</RelativeLayout>
